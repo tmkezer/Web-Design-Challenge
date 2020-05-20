@@ -1,0 +1,38 @@
+/* Body */
+body{
+    background-color: rgb(223, 223, 223); 
+}
+
+/* Paragraph Element */
+p{
+ font-size: 20px; 
+}
+
+@media(max-width: 700px){
+.navbar-header{
+background-color: #0BADA6 !important;
+    }
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: rgb(158, 243, 239);}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0BADA6;
+    color: white;
+  }
